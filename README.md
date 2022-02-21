@@ -5,13 +5,13 @@
 The command-line tool:
 
 ```
-go get github.com/tkrajina/typescriptify-golang-structs/tscriptify
+go get github.com/nmezei/typescriptify-golang-structs/tscriptify
 ```
 
 The library:
 
 ```
-go get github.com/tkrajina/typescriptify-golang-structs
+go get github.com/nmezei/typescriptify-golang-structs
 ```
 
 ## Usage
