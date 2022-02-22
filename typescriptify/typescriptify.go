@@ -510,6 +510,9 @@ func (t *TypeScriptify) getFieldOptions(structType reflect.Type, field reflect.S
 }
 
 func (t *TypeScriptify) getJSONFieldName(field reflect.StructField, optional bool) string {
+	if !field.IsExported() {
+		return ""
+	}
 	name := field.Name
 	jsonTag := field.Tag.Get("json")
 	if len(jsonTag) > 0 {
