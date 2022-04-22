@@ -161,7 +161,7 @@ func deepFields(typeOf reflect.Type) []reflect.StructField {
 }
 
 func (ts TypeScriptify) logf(depth int, s string, args ...interface{}) {
-	fmt.Printf(strings.Repeat("   ", depth)+s+"\n", args...)
+	//fmt.Printf(strings.Repeat("   ", depth)+s+"\n", args...)
 }
 
 // ManageType can define custom options for fields of a specified type.
